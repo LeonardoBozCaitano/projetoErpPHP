@@ -1,0 +1,282 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #d9d7d7;
+}
+
+.iconHeader{
+    width: 48px;
+}
+
+.navbar {
+    height: 15px !important;  
+    margin-bottom: 0px !important;
+}
+
+.banner img{
+    widht: 100%;
+    padding: -1px;
+    margin: -5px;
+}
+
+#buscaAvancada{
+    margin-top: 50px;
+    display: block;
+    min-height: 350px;
+    border: 1px groove #777; 
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px #777;
+}
+
+#buscaAvancada table{
+    width: 100%;
+    
+}
+#buscaAvancada table tr td{
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: central;
+}
+#buscaAvancada table tr td p{padding-top: 3px}
+#buscaAvancada button{
+    margin-top: 15px;
+    height: 40px;
+}
+
+#buscaAvancada button:hover{
+    background-color: #a8002d;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* */
+#bannerHome {
+    padding-left: 3px;
+    min-height: 50px;
+    display: block;
+    background-color: white;
+    border: 1px groove #777; 
+    box-shadow: 2px 2px 5px #777;
+    margin-bottom: 60px;
+    text-align: center;
+    vertical-align: middle ;
+}
+
+#bannerHome a{
+    width: 100%;
+    height: 100%;
+}
+#bannerHome a img{
+    display: inline-block;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* */
+.text-shadow {
+    text-shadow: 2px 1px 5px  black;
+}
+
+/* BOX 2 SETTINGS */
+
+.box{
+    width: 100%;
+    min-height: 250px;
+    border: 1px groove #777; 
+    box-shadow: 2px 2px 5px #777;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 35px;
+    float: left;
+}
+
+.box box-content{
+    height: 100%;
+}
+
+.box box-content img{
+    width: 80%;
+    text-align: center;
+    height: 80%;
+}
+
+.box h3{
+
+}
+
+.box p{
+    margin-top: -5px;
+}
+
+.box button{
+    width: 100%;
+    height: 30px;
+    border: 1px groove #777; 
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 2px 2px 5px #777;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+/* BOX 2 HOVER SETTINGS */
+.box:hover {
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid #777; 
+    box-shadow: 2px 2px 5px #777;
+    border-radius: 5px;
+    background-color: #a8002d;
+    margin-bottom: 35px;
+    color: whitesmoke;
+}
+
+.box:hover button{
+    background-color: #777;
+    color: #a8002d;
+    font-weight: bold;
+}
+/* !BOX 2 SETTINGS */
+
+.box1 button{
+    margin-top: 50px !important;
+
+}
+
+.box2 button{
+    margin-top: 30px !important;
+
+}
+
+.box-content table{
+    text-align: center;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.carousel {
+    width: 100%;
+    margin-top: 50px;
+    height: 350px;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 5px #777;
+}
+.carousel-caption {
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+}
+
+.carousel-caption h3{
+    margin-left: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.carousel-caption img{
+    width: 80px;
+    margin-top: -10px;
+
+}
+
+.carousel .item {
+    height: 350px;
+    background-color: #777;
+    cursor: pointer;
+}
+
+.carousel-control{
+    padding-top: 165px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 50px;
+    background-color: #333;
+    height:300px;
+    position: relative;
+    width:100%;
+    bottom:0;
+    font-weight:lighter;
+    color: whitesmoke;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color: #a8002d;
+    text-align:center;
+    color:whitesmoke;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+/* 
+*
+*   CONTATO VIEW
+*
+*
+*/
+
+.iframe-contato{
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+
+}
+
+.box-localizacao {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 400px;
+    background-color:  #d9d7d7;
+}
+
+.box-anuncio{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 230px;
+    background-color:  #a8002d;
+    color: #d9d7d7;
+}
+
+.box-contato{
+    min-height: 300px;
+    background-color:  #d9d7d7;
+}
+
+.box-contato h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
